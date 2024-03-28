@@ -1,9 +1,8 @@
             Installation sur termux
     apt update
     apt upgrade
-    apt install python
-    apt install pip
-    apt install requests
+    pkg install python
+    pip install requests
     apt install git
     rm -f HUGO
     git clone https://github.com/hugobert736/HUGO
