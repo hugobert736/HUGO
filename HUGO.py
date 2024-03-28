@@ -36,8 +36,7 @@ bblue="\033[1;34m"          # Blue
 P="\033[1;35m"        # Purple
 C="\033[1;36m"          # Cyan
 B="\033[1;37m"         # White
-my_color = [
- B,C,P,H]
+my_color = [B,C,P,H]
 warna = random.choice(my_color)
 oks=[]
 cps=[]
@@ -61,7 +60,7 @@ logo=(f'''{B}
                                             
 
 {warna}--------------------------------------------{B}
- Owner    : {M}HUGP-SHELBY{M}
+ Owner    : {M}HUGOBERT{M}
  TOOL NAME : {warna}{P}HUGO{P}{warna}
  PAGE FB   : [Service Darkness]
  STATUE : {H}FREE{H}
@@ -80,7 +79,7 @@ def HUGO():
     clear()
     os.system('xdg-open https://www.facebook.com/profile.php?id=100076309834909')
     print(f'{B} [{warna}01{B}] RANDOM CLONING ')
-    print(f'{B} [{warna}00{B}] EXIT TERMINAL ')
+    print(f'{B} [{warna}00{B}] QUITER LE TERMINAL ')
     linex()
     option=input(f' {B}[{warna}??{B}] CHOISIR MENU >> ')
     if option in ['01','1']:
@@ -91,8 +90,8 @@ def HUGO():
 def BD_CLONING():
     user=[]
     clear()
-    print(' CODE SIM MALAGASY : [26132] [26133] [26134] [26133] [26139]')
-    print(' 261=0 Madagascar Mg: [032] [034] [038] [033] [039]')
+    print(' CODE SIM MALAGASY : [26132] [26133] [26134] [26133] [26137]')
+    print(' 261=0 Madagascar Mg: [032] [034] [038] [033] [037]')
     code=input(' ENTER SIM CODE >> ')
     linex()
     print(' EXAMPLE LIMIT : [1000] [2000] [5000] [10000]')
@@ -106,7 +105,7 @@ def BD_CLONING():
         user.append(nmp)
     with tred(max_workers=30) as Dipto:
         tl=str(len(user))
-        print(' TOTALITE DES COMPTES : '+tl)
+        print(' TOTALITES DES COMPTES : '+tl)
         print(' VOTRE SIM CODE : '+code)
         print(' CLONING EN COURS ... ')
         linex()
